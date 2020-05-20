@@ -1,0 +1,7 @@
+{
+  "name": "my-videocall",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
