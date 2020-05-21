@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Audio & Video Call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div [id]="localVideo_id" class="local"></div>
+  <div *ngFor="let callId of listCalls" [id]="callId" class="remote"></div>
+</ion-content>
